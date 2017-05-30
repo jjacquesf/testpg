@@ -1,0 +1,45 @@
+// Import all partials
+@require './_*.styl'
+
+.Intro, .Login
+	background-image url(images/intro/bg.jpg)
+	background-size cover
+	height 100vh
+	
+	color $white
+	
+	h3
+		letter-spacing 3px
+	.btn-link
+		color $white
+		font-weight bold
+		
+.Banner
+	margin-bottom 10px
+	
+.Header
+	left 0
+	position fixed
+	right 0
+	top 0
+	z-index 1
+	
+.Footer
+	bottom 0
+	left 0
+	position fixed
+	right 0
+	z-index 1
+
+.BottomMenu
+	.btn
+		border-radius 0
+		
+		&.btn-default
+			background-color $light-gray
+			color $gray
+			
+			&:hover
+				background-color $light-gray	
+				color $green
+	

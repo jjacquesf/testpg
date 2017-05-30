@@ -1,0 +1,138 @@
+.Store
+	.ListItem
+		margin-bottom 0.5em
+		
+		a
+			color $gray
+			display block
+			
+		.logo
+			border 2px solid $green
+		.info
+			padding 0 5px
+			
+			h3
+				font-size 1.3em
+				margin 0
+
+		table.currency
+			widtg 100%
+			font-size 0.7em
+			
+			thead
+				background-color $gray
+			
+			tbody
+				tr:first-child
+					th
+						background-color $green
+					td
+						background-color $light-green
+				tr:nth-child(2)
+					th
+						background-color $light-green
+					td
+						background-color $middle-green
+			tr
+				th
+					color $white
+					padding 2px
+					text-align left
+					vertical-align top
+				td
+					color $white
+					padding 2px
+					text-align right
+					vertical-align top
+			
+	.SearchForm
+		background-image url(images/intro/bg.jpg)
+		background-size cover
+		
+		color $white
+		padding 10px 0
+		
+		a
+			color $white
+			
+		box-shadow 0 2px 5px 2px rgba(0,0,0,0.2)
+		
+		visibility visible
+		&.slideOutUp
+			visibility hidden
+
+	.NavBar 
+		background $light-gray
+		color $gray
+		line-height 40px
+		font-weight bold
+		
+		a
+			color $gray
+			display inline-block
+			width 40px
+			height 40px
+		
+	.Card
+		h1
+			color $green
+			font-size 1.5em
+			margin 0 0 0.5em 0
+		
+		.Rating
+			.Starts	
+				color $yellow
+				// &>span
+				// 	padding-right 0.5em
+					
+			a
+				color $green
+				
+		address
+			padding 0.5em 0
+			margin-bottom 0.5em
+			
+	.Currencies
+		img
+			width 35px
+			
+			&.bank
+				width auto
+		
+		table
+			td, th
+				vertical-align middle
+	
+	.Calculator
+		
+		.total
+			font-size 2em
+
+	.ButtonBar
+		padding 0.5em
+		
+		.btn
+			border none
+			
+			&.btn-default
+				color $gray
+				width 45px
+				height 45px
+
+				&:hover
+					background $white
+					color $green
+
+
+	.Tag
+		border-radius 15px
+		color $gray
+		display inline-block
+		font-size 0.8em
+		margin-right 0.5em
+		padding 2px 10px
+		&.odd
+			background-color $light-gray	
+		&.even
+			background-color $light-green
+		
